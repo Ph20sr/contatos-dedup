@@ -1,0 +1,12 @@
+{
+  "name": "contatos-dedup",
+  "version": "1.0.0",
+  "description": "Encontra e mescla contatos duplicados no CRM: e-mail, telefone, CPF/CNPJ e nomes parecidos, com motivo e nível de confiança. Zero dependências.",
+  "type": "module",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=20" },
+  "keywords": ["deduplicacao", "dedupe", "crm", "contatos", "jaro-winkler", "brasil"],
+  "license": "MIT"
+}
